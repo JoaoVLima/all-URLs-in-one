@@ -9,6 +9,16 @@
     margin-bottom: 5rem;
 }
 
+.link {
+    text-decoration: none;
+    color: #222;
+}
+
+.link :hover {
+    text-decoration: none;
+    color: #4fce6a;
+}
+
 /* Bigger than 350 */
 @media (min-width: 350px) {
     .section {
@@ -17,12 +27,14 @@
 
     .top-heading {
         font-size: 2.4rem;
+        margin-bottom: 5%;
     }
 
     .top-description {
         font-size: 2rem;
         margin-left: 4%;
     }
+    
 }
 
 /* Bigger than 550 */
